@@ -4,7 +4,9 @@
   "description": "A Discord bot that gives live updates on Evan",
   "main": "src/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
   },
   "repository": {
     "type": "git",
