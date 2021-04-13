@@ -5,7 +5,8 @@ class Evan {
 	constructor(){
 		this.liveFeed = function(message){
 			let video = randomProperty(evanVideos);
-			message.reply(`${video.title} : ${video.url}`);
+			let evRegex = /Evan/i;
+			message.reply(`${video.title.replace(evRegex, '<@!236979977705226240>')} : ${video.url}`);
 		},
 		this.help = function(message){
 			message.reply(`Ask me what Evan is doing with the following commands: --ev <${Object.getOwnPropertyNames(this)}>`)

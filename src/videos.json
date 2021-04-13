@@ -1,14 +1,46 @@
 {
-	"pizza": {
-		"title": "Live feed of Evan Tino ordering pizza",
-		"url": "https://www.youtube.com/watch?v=OXu7XVl1WSg&ab_channel=ICE"
-	},
-	"motorcycle": {
-		"title": "Evan just crashed his motorcycle :O !",
-		"url": "https://www.youtube.com/watch?v=yOkN-g_xmV4&ab_channel=GedeBond"
-	},
-	"grandma": {
-		"title": "Evan is disrespecting his elders.",
-		"url": "https://www.youtube.com/watch?v=oj6NMiuU0ys&ab_channel=TyWaddell"
-	}
+  "pizza": {
+    "title": "Live feed of Evan Tino ordering pizza",
+    "url": "https://www.youtube.com/watch?v=OXu7XVl1WSg&ab_channel=ICE"
+  },
+  "motorcycle": {
+    "title": "Evan just crashed his motorcycle :O !",
+    "url": "https://www.youtube.com/watch?v=yOkN-g_xmV4&ab_channel=GedeBond"
+  },
+  "grandma": {
+    "title": "Evan is disrespecting his elders.",
+    "url": "https://www.youtube.com/watch?v=oj6NMiuU0ys&ab_channel=TyWaddell"
+  },
+  "glizzy": {
+    "title": "Evan is taking up arms",
+    "url": "https://www.youtube.com/watch?v=GhxqIITtTtU&ab_channel=apeswillrise"
+  },
+  "drip": {
+    "title": "Evan is dripping or drowning",
+    "url": "https://www.youtube.com/watch?v=jSUoHrSLTyY&ab_channel=LilliannaEscutia"
+  },
+  "bathroom": {
+    "title": "Evan is using the restroom, please give him some privacy",
+    "url": "https://www.youtube.com/watch?v=4DPRNtQ3y_8&ab_channel=AkkeyFox"
+  },
+  "falling": {
+    "title": "Damn, Evan really just fell over. Can one of y'all go help him?",
+    "url": "https://www.youtube.com/watch?v=6G7HYqjBxgg&ab_channel=JuicyJoey"
+  },
+  "dinner": {
+    "title": "Evan is attending a dinner event with the rest of the Tinos",
+    "url": "https://www.youtube.com/watch?v=SA2o6Nac9Yg&ab_channel=RobinCould"
+  },
+  "vlog": {
+    "title": "Evan is giving a tour of his house, drop a like and subscribe",
+    "url": "https://www.youtube.com/watch?v=QBnXYxCJFGg&ab_channel=TawnyAntle"
+  },
+  "tmz": {
+  	"title": "Evan made a comedy video guys be nice to him and say you like it",
+  	"url": "https://www.youtube.com/watch?v=PaHaTJ_kqQc&ab_channel=ItzShark"
+  },
+  "snack": {
+  	"title": "Evan's having a snack",
+  	"url": "https://www.youtube.com/watch?v=xjodBEJpA-Q&ab_channel=MonkeyBoo"
+  }
 }

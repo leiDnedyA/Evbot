@@ -22,7 +22,7 @@ client.on('ready', () => {
 
 //message recieved listener
 client.on('message', (message) => {
-	console.log(`[${message.author.tag}]: ${message.content}`);
+	console.log(`[${message.author.tag} ${message.author.id}]: ${message.content}`);
 	let splitInput = message.content.split(' ');
 	if(splitInput[0] == '--ev'){
 		if(splitInput[1] && evan.hasOwnProperty(splitInput[1])){
