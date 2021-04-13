@@ -1,0 +1,22 @@
+{
+  "name": "evbot",
+  "version": "1.0.0",
+  "description": "A Discord bot that gives live updates on Evan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiDnedyA/Evbot.git"
+  },
+  "author": "Ayden Diel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leiDnedyA/Evbot/issues"
+  },
+  "homepage": "https://github.com/leiDnedyA/Evbot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
