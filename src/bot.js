@@ -1,22 +1,34 @@
 require('dotenv').config();
+const readline = require('readline');
+const rl = readline.createInterface({
+	input: process.stdin,
+	output: process.stdout
+});
+
 const Evan = require('./evan.js');
 const discord = require('discord.js');
 const client = new discord.Client();
 const evan = new Evan.Evan();
 
-//creates a listener which listens to an event
+//console input listener
+rl.on('line', (input) => {
+	console.log(`Recieved: ${input}`);
+});
+
+//log on listener
 client.on('ready', () => {
 	console.log(`[EVBOT] ${client.user.tag} has logged in`);
 });
 
+//message recieved listener
 client.on('message', (message) => {
 	console.log(`[${message.author.tag}]: ${message.content}`);
 	let splitInput = message.content.split(' ');
 	if(splitInput[0] == '--ev'){
 		if(splitInput[1] && evan.hasOwnProperty(splitInput[1])){
-			message.reply(evan[splitInput[1]]());
+			evan[splitInput[1]](message);
 		}else{
-			message.reply(evan.help());
+			evan.liveFeed(message);
 		}
 	}
 });
