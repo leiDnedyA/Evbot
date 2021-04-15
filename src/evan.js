@@ -1,6 +1,6 @@
-const discord = require('discord.js');
-const evanVideos = require('./videos.json')
-
+const discord = require('discord.js');;
+const evanVideos = require('./videos.json');
+const suggestions = require('./suggestions.js');
 class Evan {
 	constructor(){
 		this.liveFeed = function(message){
@@ -8,6 +8,9 @@ class Evan {
 			let evRegex = /Evan/i;
 			message.reply(`${video.title.replace(evRegex, '<@!236979977705226240>')} : ${video.url}`);
 		},
+		this.suggest = function(message){
+			
+		}
 		this.help = function(message){
 			message.reply(`Ask me what Evan is doing with the following commands: --ev <${Object.getOwnPropertyNames(this)}>`)
 		}
