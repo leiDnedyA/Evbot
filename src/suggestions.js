@@ -5,7 +5,6 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const suggestionPath = './src/suggested.json';
 var suggestionObj = readJSON(suggestionPath);
-console.log(suggestionObj)
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
@@ -37,7 +36,6 @@ class SuggestionServer{
 			//takes root request and serves homepage
 			app.route('/EvBot/')
 				.get((req, res) => {
-				console.log(req.query.txt);
 				res.sendFile(path.join(__dirname + homePage + '/index.html'));
 			})
 				.post((req, res) => {
@@ -46,7 +44,6 @@ class SuggestionServer{
 					let randomName = Math.random().toString();
 					let completed = true;
 					let i = 0;
-					console.log(suggestionObj);
 					while(suggestionObj.hasOwnProperty(`${randomName} : ${req.connection.remoteAddress}`) || i == 10){
 						randomName = Math.random().toString();
 						i++;
